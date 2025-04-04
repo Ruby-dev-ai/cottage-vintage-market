@@ -31,7 +31,7 @@ const Index = () => {
         <section className="relative h-[600px] overflow-hidden">
           <div className="absolute inset-0">
             <img 
-              src="/lovable-uploads/b1326a3d-96c7-4b8a-b62a-bfd553a65f92.png" 
+              src="/lovable-uploads/b3c7fd9c-cdde-4770-9d63-2f9c470abf3c.png" 
               alt="The Vintage Cottage" 
               className="w-full h-full object-cover"
             />
