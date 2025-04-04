@@ -16,6 +16,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import MyAccount from "./pages/MyAccount";
 import AdminDashboard from "./pages/AdminDashboard";
+import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -37,6 +38,7 @@ const App = () => (
               <Route path="/register" element={<Register />} />
               <Route path="/my-account" element={<MyAccount />} />
               <Route path="/admin" element={<AdminDashboard />} />
+              <Route path="/about" element={<About />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </BrowserRouter>

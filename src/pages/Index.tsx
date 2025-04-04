@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
@@ -53,7 +52,7 @@ const Index = () => {
                   </Button>
                 </Link>
                 <Link to="/sell">
-                  <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
+                  <Button size="lg" variant="outline" className="border-vintage-burgundy bg-vintage-burgundy text-white hover:bg-vintage-burgundy/90">
                     Sell With Us
                   </Button>
                 </Link>
@@ -72,17 +71,17 @@ const Index = () => {
               <CategoryCard 
                 category="jewelry" 
                 label="Jewelry" 
-                image={placeholderImage} 
+                image="/lovable-uploads/adc49ce0-c19f-4447-9e62-d3327234d872.png" 
               />
               <CategoryCard 
                 category="furniture" 
                 label="Furniture" 
-                image={placeholderImage} 
+                image="/lovable-uploads/adc49ce0-c19f-4447-9e62-d3327234d872.png" 
               />
               <CategoryCard 
                 category="paintings" 
                 label="Paintings" 
-                image={placeholderImage} 
+                image="/lovable-uploads/adc49ce0-c19f-4447-9e62-d3327234d872.png" 
               />
             </div>
             <div className="text-center mt-10">
@@ -168,7 +167,7 @@ const Index = () => {
               </div>
               <div className="hidden md:block">
                 <img 
-                  src={placeholderImage} 
+                  src="/lovable-uploads/adc49ce0-c19f-4447-9e62-d3327234d872.png" 
                   alt="Selling with The Vintage Cottage" 
                   className="rounded-md shadow-md"
                 />
