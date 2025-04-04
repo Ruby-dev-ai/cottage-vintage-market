@@ -67,12 +67,20 @@ const ProductForm: React.FC = () => {
   const onSubmit = (values: FormValues) => {
     if (!user) return;
 
-    // Add the product
+    // Add the product with all required fields explicitly specified
     addProduct({
-      ...values,
+      name: values.name,
+      description: values.description,
+      price: values.price,
+      category: values.category,
+      images: values.images,
       sellerId: user.id,
       sellerName: user.name,
       featured: false,
+      era: values.era || undefined,
+      dimensions: values.dimensions || undefined,
+      condition: values.condition || undefined,
+      materials: values.materials || undefined,
     });
 
     // Redirect
